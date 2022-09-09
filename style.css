@@ -5,13 +5,13 @@ body {
 
 .div1 {
     text-align: center;
-    margin-top: 36.5vh;
+    margin-top: 34.5vh;
 }
 
 .div2 {
     font-size: 1.5vh;
-    margin-top: -9vh;
-    margin-bottom: 4vh;
+    margin-top: -9.5vh;
+    margin-bottom: 4.5vh;
 }
 
 .div3 {
@@ -25,7 +25,7 @@ body {
     background: linear-gradient(to right, #0C0010, #320043, #0C0010);
     height: 36.5vh;
     width: 100%;
-    top: 32vh;
+    top: 30vh;
     z-index: -1;
 }
 
