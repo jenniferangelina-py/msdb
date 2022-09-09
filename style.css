@@ -5,17 +5,17 @@ body {
 
 .div1 {
     text-align: center;
-    margin-top: 22em;
+    margin-top: 36.5vh;
 }
 
 .div2 {
-    font-size: 0.95em;
-    margin-top: -6em;
-    margin-bottom: 3em;
+    font-size: 1.5vh;
+    margin-top: -9vh;
+    margin-bottom: 4vh;
 }
 
 .div3 {
-    font-size: 0.95em;
+    font-size: 1.5vh;
     font-family: "Epilogue";
 }
 
@@ -23,15 +23,15 @@ body {
     position: absolute;
     text-align: center;
     background: linear-gradient(to right, #0C0010, #320043, #0C0010);
-    height: 22em;
+    height: 36.5vh;
     width: 100%;
-    top: 19.5em;
+    top: 32vh;
     z-index: -1;
 }
 
 .p1 {
     color: white;
-    font-size: 6.5em;
+    font-size: 10.5vh;
     font-weight: bold;
     font-family: "Arial";
     text-shadow: 0.1em 0.1em 3.5px #410057;
@@ -68,7 +68,7 @@ body {
 .a1 {
     color: white;
     border: 2px solid white;
-    padding: 1em 3em;
+    padding: 1.5vh 5vh;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -78,9 +78,9 @@ body {
 }
 
 .margin1 {
-    margin-right: 0.5em;
+    margin-right: 0.75vh;
 }
 
 .margin2 {
-    margin-left: 0.5em;
+    margin-left: 0.75vh;
 }
