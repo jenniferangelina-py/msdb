@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <div class="navbar-nav">
+                    <a class="nav-link logo" href="../index/index.html"><p class="p1"><span class="span1">M</span><span class="span2">S</span><span class="span3">Db</span></p></a>
+                    <a class="nav-link movies hover1 active" href="../movies/movies.html">movies</a>
+                    <a class="nav-link shows hover1 active" href="../shows/shows.html">shows</a>
+                    <input type="search" spellcheck="false" class="form-control rounded search" placeholder="search" id="search">
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <div>
+            <p class="p3" id="title"></p>
+            <p class="year" id="year"></p>
+            <div class="div1">
+                <iframe class="video" id="video" width="426" height="240" src="">
+                </iframe>
+            </div>
+            <div class="div2">
+              <p class="rating" id="rating"><i class="fa-solid fa-star"></i></p>
+            </div>
+            <p class="genres" id="genres"></p>
+            <p class="overview" id="overview"></p>
+        </div>
+
+        <div>
+            <p class="p2">recommendations</p>
+            <div class="item container-fluid" id="recommendations">
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-copyright text-center">© 2022 MSDb / Jennifer Angelina</div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/7e6c71e601.js"></script>
+    </body>
+</html>      
